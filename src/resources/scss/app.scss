@@ -1,5 +1,6 @@
-.test {
-    font-size: 1.4rem;
-    color: green($color: #000000);   
-    
+@import 'variables';
+
+h1 {
+  font-size: 1.4rem;
+  color: $red-color;
 }

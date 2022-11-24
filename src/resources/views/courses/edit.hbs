@@ -1,0 +1,18 @@
+<div class="mt-4">
+  <h3>sửa</h3>
+  <form method="POST" action="/courses/{{course._id}}?_method=PUT">
+  <div class="mb-3">
+    <label for="name" class="form-label">tên</label>
+    <input type="text" class="form-control" value="{{course.name}}" id="name" name="name">
+  </div>
+   <div class="mb-3">
+    <label for="description" class="form-label">Mô tả</label>
+    <input type="text" class="form-control" value="{{course.description}}" id="description" name="description">
+  </div>
+   <div class="mb-3">
+    <label for="img" class="form-label">img</label>
+    <input type="text" class="form-control" value="{{course.img}}" id="img" name="img">
+  </div>
+  <button type="submit" class="btn btn-primary">lưu</button>
+</form>
+</div>
